@@ -1,0 +1,6 @@
+1. Use make command to build the project.
+2. Run the code.
+3. It shows a Menu to perform certain operations on the Red-Black Tree.
+4. choose an option and hit enter.
+5. Certain algorithms are followed for balancing the tree in every operation.
+
