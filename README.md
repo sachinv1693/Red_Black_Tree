@@ -6,7 +6,7 @@
 4. If a node is red, then both its children are black.
 5. Every simple path from a node to a descendant leaf contains the same number of black nodes i.e. it maintains equal black height on every path.
 
-In this project, basic operations with Red-Black Tree like insertion, deletion, searching etc. are performed.
+In this project, basic operations on Red-Black Tree like insertion, deletion, searching etc. are performed.
 Run the makefile.
 Perform the given operations by selecting a particular option.
 
