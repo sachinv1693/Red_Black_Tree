@@ -12,7 +12,7 @@ Perform the given operations by selecting a particular option.
 
 In Red-Black Tree insertion, we come across a problem of red-red parent-child relationship. In order to fix the issue, we need to perform some rotation &/or recoloring operations. Similarly, for delete operation, we have to fix double black issue while deleting a black node.
 In this project, recursive approach is used to fix the above issues.
-Find node, finding minimum & maximum node operations are exactly similar to that in case of a BST.
+Finding a given node, finding minimum & maximum node operations are exactly similar to that in case of a BST.
 Output is printed in inorder manner. Any other way can also be used.
 
 Red-Black Tree with n keys has the height: h <= 2 * log(n + 1)
