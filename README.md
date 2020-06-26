@@ -16,4 +16,4 @@ Finding a given node, finding minimum & maximum node operations are exactly simi
 Output is printed in inorder manner. Any other way can also be used.
 
 Red-Black Tree with n keys has the height: h <= 2 * log(n + 1)
-There is the assurance that its height remains as O(log n) after any sequence of deletions and insertions. So for time complexity is fixed as it makes itself evenly distributed.
+There is the assurance that its height remains as O(log n) after any sequence of deletions and insertions. So time complexity is fixed as it makes itself evenly distributed.
