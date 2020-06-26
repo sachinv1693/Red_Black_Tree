@@ -1,11 +1,11 @@
 /*******************************************************************************************************************************************************************
- *Title			   : Delete Node
+ *Title	           : Delete Node
  *Description	   : This function performs deletion of the given node from the Red-Black Tree
- *Prototype		   : Status delete_node(RBT_t** root, RBT_t* del_node, WHICH_CHILD left_or_right); 
+ *Prototype	   : Status delete_node(RBT_t** root, RBT_t* del_node, WHICH_CHILD left_or_right); 
  *Input Parameters : root – Pointer to the root node of the Red Black tree.
                    : del_node - Pointer to the node to be deleted/replaced.
                    : left_or_right - Variable to know which child of parent
- *Output		   : Status (SUCCESS / FAILURE)
+ *Output	   : Status (SUCCESS / FAILURE)
  *******************************************************************************************************************************************************************/
 #include "rbt.h"
 
@@ -42,7 +42,7 @@ Status delete_node(RBT_t** root, RBT_t* del_node, WHICH_CHILD left_or_right)
 #if DEBUG_ON
 				printf("Node to be deleted is BLACK\n");
 #endif
-				//Note that BLACK node cannot have a single left BLACK child
+				//Note that BLACK node cannot have a single BLACK child
 				//Check if it has only 1 left child and it's RED
 				if ((del_node -> right == NULL) && (del_node -> left) && (del_node -> left -> right == NULL && del_node -> left -> left == NULL) && (del_node -> left -> color == RED))
 				{
